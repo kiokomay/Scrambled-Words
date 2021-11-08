@@ -30,8 +30,8 @@ When the player clicks the play button they will see the game screen consisting 
 
 In the future I think it would be cool to add:
 
--more difficult levels
--leaderboard
--"unscramble the word again" button
--game timer
--limited number of attempts for each game
+- more difficult levels
+- leaderboard
+- "unscramble the word again" button
+- game timer
+- limited number of attempts for each game
