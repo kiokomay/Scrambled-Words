@@ -6,11 +6,11 @@ Scrambled Words is a game where the user is given a bunch of letters and the goa
 
 ## Screenshots
 
-https://i.imgur.com/0ch5ULh.png
+![alt text]https://i.imgur.com/0ch5ULh.png
 
-https://i.imgur.com/uFQcGTd.png
+![alt text]https://i.imgur.com/uFQcGTd.png
 
-https://i.imgur.com/b3cRZgB.png
+![alt text]https://i.imgur.com/b3cRZgB.png
 
 ## Technologies
 
@@ -20,7 +20,7 @@ This project was made using HTML, CSS and JavaScript
 
 ### Link to the Game
 
--
+https://kiokomay.github.io/Scrambled-Words/
 
 ### How the Game Works
 
