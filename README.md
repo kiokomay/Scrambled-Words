@@ -6,11 +6,11 @@ Scrambled Words is a game where the user is given a bunch of letters and the goa
 
 ## Screenshots
 
-![alt text]https://i.imgur.com/0ch5ULh.png
+![alt text](https://i.imgur.com/0ch5ULh.png)
 
-![alt text]https://i.imgur.com/uFQcGTd.png
+![alt text](https://i.imgur.com/uFQcGTd.png)
 
-![alt text]https://i.imgur.com/b3cRZgB.png
+![alt text](https://i.imgur.com/b3cRZgB.png)
 
 ## Technologies
 
