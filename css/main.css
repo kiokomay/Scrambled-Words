@@ -1,0 +1,179 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  background-color: #3d3d3d;
+}
+
+html,
+body {
+  font-size: 15px;
+  width: 100%;
+  font-family: "Lucida Console", Monaco, monospace;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+nav {
+  background-color: #3d3d3d;
+  border-bottom: #303030 2px solid;
+  width: 100%;
+  padding: 0.625em;
+  display: block;
+  height: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  display: inline-block;
+  padding-left: 1em;
+}
+
+#instructions {
+  position: absolute;
+  z-index: 999;
+  width: 31.25em;
+  height: 31.25em;
+  text-align: center;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -200px;
+}
+
+#instructions p {
+  margin-bottom: 1.25em;
+}
+
+#score-container {
+  text-align: center;
+  margin: 2em auto;
+  width: 100vh;
+  height: 80vh;
+}
+
+#score-container p {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 3em;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+#score-container p span {
+  font-weight: 300;
+}
+
+#score-container p#info {
+  display: block;
+  text-align: center;
+  font-size: 2em !important;
+  height: 2em;
+  margin-bottom: 1em;
+}
+
+#button-input-container {
+  margin-top: 40px;
+}
+
+#game-word {
+  font-size: 3em !important;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 48px;
+  margin-bottom: 1em !important;
+}
+
+#game-word p {
+  display: block;
+  width: 100%;
+}
+
+#input-guess {
+  display: block;
+  width: 20em;
+  height: 3em;
+  padding-left: 1em;
+  margin: 0 auto 1.25em;
+  border: 1px solid #000;
+  outline-color: #00520e;
+  font-size: 1.1em;
+}
+
+small {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.prompt {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.correct,
+.incorrect {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.correct {
+  color: green;
+  display: block;
+}
+
+.incorrect {
+  color: red;
+  display: block;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+#level #score {
+  text-align: center;
+}
+
+#answer-el {
+  position: relative;
+}
+
+button {
+  color: #009400;
+  background-color: #535353;
+  border: 2px solid #009400;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #009400;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+button:hover {
+  box-shadow: inset 0 0 0 50px #009400;
+  color: #535353;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#credit {
+  text-align: center;
+  position: absolute;
+  margin: 0 0 20px 0;
+}

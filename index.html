@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Scrambled Words</h1>
+      <div id="instructions">
+        <p class="prompt">Unscamble The Words.</p>
+        <p>
+          Type your guess and click submit <small>(Enter also works)</small>.
+        </p>
+        <p>Get ten words correct and level up.</p>
+        <p>The number of scrambled letters increases with each level</p>
+        <p>Get a word right and get +10 to your score.</p>
+        <p>Get a word wrong and lose -5 points to you score</p>
+        <p>Finish level 5 with at least 250 points and you win!</p>
+        <p>Good luck and have fun!!</p>
+        <button id="btn-play">Play!</button>
+      </div>
+    </nav>
+
+    <div id="score-container" class="hide">
+      <p>Level: <span id="level">1</span></p>
+      <p>Score: <span id="score">0</span></p>
+      <p id="answer-el"></p>
+
+      <div id="button-input-container">
+        <p id="game-word"></p>
+
+        <input id="input-guess" type="text" placeholder="Enter your guess" />
+        <button id="btn-submit">Submit</button>
+        <button id="btn-reset">Reset</button>
+      </div>
+    </div>
+
+    <div id="credit">
+      <p>
+        Coded by:
+        <a target="_blank" href="https://twitter.com/kiokomay"
+          >Kioko Metcalfe</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
